@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matiello Disk Bebidas</title>
+    <style>
+        body {
+            background-color:  #941111;
+        }
+
+        .salgados {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .salgados img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        @media (max-width: 768px) {
+            .salgados img {
+                flex: 1 1 calc(50% - 20px);             
+            }
+        }
+
+        @media (max-width: 480px) {
+            .salgados img {
+                flex: 1 1 calc(100% - 20px);               
+            }
+        }
+        @media only screen and (min-width: 992px) {
+            .salgados img {                
+                max-width: 20%;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="salgados">
+        <img src="./img/salgados/ruffles.webp" alt="">
+        <img src="./img/salgados/sensacao.jfif" alt="">
+        <img src="./img/salgados/pringles.jfif" alt="">
+        <img src="./img/salgados/amendoin.webp" alt="">
+        <img src="./img/salgados/amendoin1.webp" alt="">
+        <img src="./img/salgados/bacon.webp" alt="">
+        <img src="./img/salgados/baconzitos.jpg" alt="">
+        <img src="./img/salgados/cebolitos.jfif" alt="">
+        <img src="./img/salgados/ceetos.webp" alt="">
+        <img src="./img/salgados/doritos.webp" alt="">
+        <img src="./img/salgados/fandangos.webp" alt="">
+        <img src="./img/salgados/lays.jpg" alt="">
+        <img src="./img/salgados/pingo.webp" alt="">
+        <img src="./img/salgados/stiksy.png" alt="">
+    </div>
+    
+</body>
+</html>

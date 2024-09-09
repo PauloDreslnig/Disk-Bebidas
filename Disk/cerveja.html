@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matiello Bebidas Cervejas</title>
+    <style>
+        body {
+            background-color:  #941111;
+        }
+
+        .cervejas {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .cervejas img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        @media (max-width: 768px) {
+            .cervejas img {
+                flex: 1 1 calc(50% - 20px);             
+            }
+        }
+
+        @media (max-width: 480px) {
+            .cervejas img {
+                flex: 1 1 calc(100% - 20px);               
+            }
+        }
+
+        @media only screen and (min-width: 992px) {
+            .cervejas img {                
+                max-width: 20%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cervejas">
+        <img src="./img/cervejas/heineken.jpg" alt="">
+        <img src="./img/cervejas/budweiser.jpg" alt="">
+        <img src="./img/cervejas/patagonia.jpg" alt="">
+        <img src="./img/cervejas/corona.jpg" alt="">
+        <img src="./img/cervejas/eisenba.webp" alt="">
+        <img src="./img/cervejas/skol.webp" alt="">
+        <img src="./img/cervejas/brahma.jpg" alt="">
+        <img src="./img/cervejas/brahma1.webp" alt="">
+        <img src="./img/cervejas/brahma2.jpg" alt="">
+        <img src="./img/cervejas/bohemia.webp" alt="">
+        <img src="./img/cervejas/colonia.jpg" alt="">
+        <img src="./img/cervejas/conti.jfif" alt="">
+        <img src="./img/cervejas/itaipava.jfif" alt="">
+        <img src="./img/cervejas/original.jpg" alt="">
+        <img src="./img/cervejas/petra.webp" alt="">
+        <img src="./img/cervejas/sol.webp" alt="">
+        <img src="./img/cervejas/spaten.webp" alt="">
+        <img src="./img/cervejas/stella.webp" alt="">
+
+    </div>
+
+</body>
+
+</html>

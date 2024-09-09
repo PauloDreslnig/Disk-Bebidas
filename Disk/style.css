@@ -1,0 +1,86 @@
+/* Estilos mobile-first (para telas pequenas) */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    margin: 0;
+    background-color: #941111;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgba(255, 187, 0, 1);
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    color: #000000;
+}
+
+h3 {
+    font-size: 16px;
+    color: #070707;
+}
+
+.whats {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #25d366;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    width: 100%; 
+    margin-top: 10px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.container a {  
+    font-family: Relaway;
+    background-color:#25d366;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para tablets (largura mínima 600px) */
+@media (min-width: 600px) {
+    .container {
+        width: 48%; /* Mostra duas colunas de imagens */
+    }
+}
+
+/* Estilos para desktops (largura mínima 1024px) */
+@media (min-width: 1024px) {
+    .container {
+        width: 20%; /* Mostra três colunas de imagens */
+    }
+}
